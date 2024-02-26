@@ -4,7 +4,7 @@
   "description": "A simple interactive svg Brazil map web component",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo 'test'"
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/LuizJarduli/brazil-mentioned#readme",
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "~2.8.0",
     "lit": "~3.1.2"
   },
   "devDependencies": {
+    "@types/node": "~20.11.20",
     "@typescript-eslint/eslint-plugin": "~6.21.0",
     "eslint": "~8.57.0",
     "eslint-config-prettier": "~9.1.0",
@@ -39,6 +39,7 @@
     "eslint-plugin-n": "~16.6.2",
     "eslint-plugin-promise": "~6.1.1",
     "ts-lit-plugin": "~2.0.2",
-    "typescript": "~5.3.3"
+    "typescript": "~5.3.3",
+    "vite": "~5.1.4"
   }
 }
