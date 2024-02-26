@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "redhat.vscode-yaml",
+    "editorconfig.editorconfig",
+    "bierner.lit-html",
+    "runem.lit-plugin"
+  ],
+  "unwantedRecommendations": []
+}
