@@ -7,3 +7,5 @@ A simple (but effective!) web component brazil map SVG with strokes and paths de
 ---
 
 ## Installation
+
+In progress

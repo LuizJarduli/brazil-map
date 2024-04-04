@@ -3,11 +3,15 @@
   "version": "1.1.0",
   "description": "A simple interactive svg Brazil map web component",
   "main": "./dist/brazil-mentioned.js",
+  "module": "./dist/brazil-mentioned.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx tsc && npx vite build",
-    "build:watch": "npx tsc --watch"
+    "build:npm": "npx tsc && npx vite build --config vite.config.npm.js && npm run postbuild:npm",
+    "build:cdn": "npx tsc && npx vite build --config vite.config.cdn.js",
+    "build:watch": "npx tsc --watch",
+    "publish": "npm publish",
+    "postbuild:npm": "cp package.json ./dist && cp README.md ./dist && cp LICENSE ./dist && cp CHANGELOG.md ./dist"
   },
   "contributors": [
     "LuizJarduli"
@@ -28,7 +32,7 @@
     "webcomponents",
     "typescript"
   ],
-  "author": "Luiz Miguel",
+  "author": "Luiz Miguel luizjarduli@gmail.com",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/LuizJarduli/brazil-mentioned/issues"
@@ -42,7 +46,6 @@
     "@rollup/plugin-terser": "~0.4.4",
     "@types/node": "~20.11.20",
     "@typescript-eslint/eslint-plugin": "~6.21.0",
-    "@web/rollup-plugin-copy": "~0.5.1",
     "@web/rollup-plugin-html": "~2.3.0",
     "eslint": "~8.57.0",
     "eslint-config-prettier": "~9.1.0",
