@@ -2,17 +2,23 @@
   "name": "brazil-mentioned-map",
   "version": "1.0.0",
   "description": "A simple interactive svg Brazil map web component",
-  "main": "./dist/index.js",
+  "main": "./dist/brazil-mentioned.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "npx tsc && npx vite build",
     "build:watch": "npx tsc --watch"
   },
+  "contributors": [
+    "LuizJarduli"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LuizJarduli/brazil-mentioned.git"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "Brazil",
     "svg",
