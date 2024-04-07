@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/LuizJarduli/brazil-mentioned/compare/v1.1.3...v1.1.5) (2024-04-07)
+
+
+### Bug Fixes
+
+* cdn version lock on docs ([855cad1](https://github.com/LuizJarduli/brazil-mentioned/commit/855cad16ebd4d0f20afcc007d9b4ff9cfe70fd87))
+* docs ([d84c763](https://github.com/LuizJarduli/brazil-mentioned/commit/d84c763a1c35c2f7ba4c04c0716dc839f79b8aaa))
+
 ### [1.1.4](https://github.com/LuizJarduli/brazil-mentioned/compare/v1.1.3...v1.1.4) (2024-04-07)
 
 ### [1.1.3](https://github.com/LuizJarduli/brazil-mentioned/compare/v1.1.2...v1.1.3) (2024-04-07)
