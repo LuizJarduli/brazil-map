@@ -12,19 +12,19 @@ A simple (but effective!) web component brazil map SVG with strokes and paths de
 
 You can either install using a js package manager of your choice or use the official CDN distribution
 
-> via npm
+### via npm
 
 ```sh
 npm i brazil-mentioned
 ```
 
-> via yarn
+### via yarn
 
 ```sh
 yarn add brazil-mentioned
 ```
 
-> via CDN
+### via CDN
 
 CDN link via jsDelivr
 
@@ -94,7 +94,7 @@ By default, if no static state is applied, a few mouse events occur naturally li
 
 ### Custom styles
 
-This table shows the correlation variables related to the Brazilian style in your application, both in the light and dark versions. Default cores are used when there are no specific replacements for the dark cores scheme. The dark palette is used when the system has a preferred dark option and to make sure the component serve this two palettes, the variables listed below exists with the `--dark` suffix so that you can customize the two palettes in your way and style
+This table shows the correlation variables related to the Brazilian style in your application, both in the light and dark versions. Default colors are used when there are no specific replacements for the dark colors scheme. The dark palette is used when the system has a preferred dark option and to make sure the component serve this two palettes, the variables listed below exists with the `--dark` suffix so that you can customize the two palettes in your way and style
 
 | Variable                         | Description                            | Default (Light) | Default (Dark) |
 |----------------------------------|--------------------------------------|----------------|---------------|
