@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/LuizJarduli/brazil-mentioned/compare/v1.2.0...v1.1.1) (2024-04-07)
+
 ## 1.2.0 (2024-04-07)
 
 
