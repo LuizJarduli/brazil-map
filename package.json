@@ -1,17 +1,21 @@
 {
-  "name": "brazil-mentioned-map",
+  "name": "brazil-mentioned",
   "version": "1.1.0",
   "description": "A simple interactive svg Brazil map web component",
-  "main": "./dist/brazil-mentioned.js",
-  "module": "./dist/brazil-mentioned.js",
+  "main": "./dist/brazil-mentioned.umd.js",
+  "module": "./dist/brazil-mentioned.es.js",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/brazil-mentioned.es.js",
+      "require": "./dist/brazil-mentioned.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
-    "build:npm": "npx tsc && npx vite build --config vite.config.npm.js && npm run postbuild:npm",
-    "build:cdn": "npx tsc && npx vite build --config vite.config.cdn.js",
+    "build": "npx vite build",
     "build:watch": "npx tsc --watch",
-    "publish": "npm publish",
-    "postbuild:npm": "cp package.json ./dist && cp README.md ./dist && cp LICENSE ./dist && cp CHANGELOG.md ./dist"
+    "publish": "npm publish"
   },
   "contributors": [
     "LuizJarduli"
@@ -21,10 +25,15 @@
     "url": "git+https://github.com/LuizJarduli/brazil-mentioned.git"
   },
   "files": [
-    "dist"
+    "dist",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
   ],
   "keywords": [
     "Brazil",
+    "Brasil",
     "svg",
     "map",
     "meme",
