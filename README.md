@@ -31,13 +31,13 @@ CDN link via jsDelivr
 UMD:
 
 ```link
-https://cdn.jsdelivr.net/npm/brazil-mentioned@1.1.0/dist/brazil-mentioned.umd.min.js
+https://cdn.jsdelivr.net/npm/brazil-mentioned/dist/brazil-mentioned.umd.min.js
 ```
 
 ES:
 
 ```link
-https://cdn.jsdelivr.net/npm/brazil-mentioned@1.1.0/dist/brazil-mentioned.es.min.js
+https://cdn.jsdelivr.net/npm/brazil-mentioned/dist/brazil-mentioned.es.min.js
 ```
 
 **NOTE**: The nature of this package is to provide an agnostic web component to work with any other framework and even vanilla js, plus html + css projects, and due to this the `lit` library is imported within the CDN bundle and this can cause bugs if you use another version of lit in your project, the recommended way to use this package in a other lit project is via package manager because they can deduplicate libs and handle this scenario better than a CDN. Otherwise ignore this note if you don't plan to use lit in your project alongside this package.
@@ -48,7 +48,7 @@ To use the component in your project, first you need to reference the bundle of 
 
 ```html
 <!-- CDN -->
-<script type="module" src="https://cdn.jsdelivr.net/npm/brazil-mentioned@1.1.0/dist/brazil-mentioned.umd.min.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/brazil-mentioned/dist/brazil-mentioned.umd.min.js"></script>
 
 <!-- Node modules package -->
 <script type="module" src="path-to-your/node_modules/brazil-mentioned/dist/brazil-mentioned.umd.min.js"></script>
