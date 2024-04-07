@@ -1,4 +1,4 @@
-# Brazil mentioned
+# Brazil mentioned [![npm version](https://badge.fury.io/js/brazil-mentioned.svg)](https://badge.fury.io/js/brazil-mentioned)
 
 A simple (but effective!) web component brazil map SVG with strokes and paths delimiting it's states. This web component is agnostic to any web js framework.
 
