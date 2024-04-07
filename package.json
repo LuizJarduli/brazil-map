@@ -15,7 +15,7 @@
     "dev": "vite",
     "build": "npx vite build",
     "build:watch": "npx tsc --watch",
-    "publish": "npm run build && npx standard-version && git push --follow-tags origin master && npm publish"
+    "publish:package": "npm run build && npx standard-version && git push --follow-tags origin master && npm publish"
   },
   "contributors": [
     "LuizJarduli"
