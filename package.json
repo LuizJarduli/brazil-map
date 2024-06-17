@@ -1,14 +1,14 @@
 {
-  "name": "brazil-mentioned",
+  "name": "brazil-map",
   "version": "1.1.5",
   "description": "A simple interactive svg Brazil map web component",
-  "main": "./dist/brazil-mentioned.umd.js",
-  "module": "./dist/brazil-mentioned.es.js",
+  "main": "./dist/brazil-map.umd.js",
+  "module": "./dist/brazil-map.es.js",
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/brazil-mentioned.es.js",
-      "require": "./dist/brazil-mentioned.umd.cjs"
+      "import": "./dist/brazil-map.es.js",
+      "require": "./dist/brazil-map.umd.cjs"
     }
   },
   "scripts": {
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LuizJarduli/brazil-mentioned.git"
+    "url": "git+https://github.com/LuizJarduli/brazil-map.git"
   },
   "files": [
     "dist",
@@ -44,9 +44,9 @@
   "author": "Luiz Miguel luizjarduli@gmail.com",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/LuizJarduli/brazil-mentioned/issues"
+    "url": "https://github.com/LuizJarduli/brazil-map/issues"
   },
-  "homepage": "https://github.com/LuizJarduli/brazil-mentioned#readme",
+  "homepage": "https://github.com/LuizJarduli/brazil-map#readme",
   "dependencies": {
     "lit": "~3.1.2"
   },

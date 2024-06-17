@@ -1,8 +1,8 @@
-# Brazil mentioned [![npm version](https://badge.fury.io/js/brazil-mentioned.svg)](https://badge.fury.io/js/brazil-mentioned)
+# Brazil map [![npm version](https://badge.fury.io/js/brazil-map.svg)](https://badge.fury.io/js/brazil-map)
 
 A simple (but effective!) web component brazil map SVG with strokes and paths delimiting it's states. This web component is agnostic to any web js framework.
 
-![brazil-mentioned](https://i.imgur.com/qRZB3WS.gif)
+![brazil-map](https://i.imgur.com/qRZB3WS.gif)
 
 ![This is Brazil](https://i.pinimg.com/originals/a3/2c/1c/a32c1cc8d2b448fb64c1a1fec01e570f.jpg)
 
@@ -15,13 +15,13 @@ You can either install using a js package manager of your choice or use the offi
 ### via npm
 
 ```sh
-npm i brazil-mentioned
+npm i brazil-map
 ```
 
 ### via yarn
 
 ```sh
-yarn add brazil-mentioned
+yarn add brazil-map
 ```
 
 ### via CDN
@@ -31,13 +31,13 @@ CDN link via jsDelivr
 UMD:
 
 ```link
-https://cdn.jsdelivr.net/npm/brazil-mentioned/dist/brazil-mentioned.umd.min.js
+https://cdn.jsdelivr.net/npm/brazil-map/dist/brazil-map.umd.min.js
 ```
 
 ES:
 
 ```link
-https://cdn.jsdelivr.net/npm/brazil-mentioned/dist/brazil-mentioned.es.min.js
+https://cdn.jsdelivr.net/npm/brazil-map/dist/brazil-map.es.min.js
 ```
 
 **NOTE**: The nature of this package is to provide an agnostic web component to work with any other framework and even vanilla js, plus html + css projects, and due to this the `lit` library is imported within the CDN bundle and this can cause bugs if you use another version of lit in your project, the recommended way to use this package in a other lit project is via package manager because they can deduplicate libs and handle this scenario better than a CDN. Otherwise ignore this note if you don't plan to use lit in your project alongside this package.
@@ -48,10 +48,10 @@ To use the component in your project, first you need to reference the bundle of 
 
 ```html
 <!-- CDN -->
-<script type="module" src="https://cdn.jsdelivr.net/npm/brazil-mentioned/dist/brazil-mentioned.umd.min.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/brazil-map/dist/brazil-map.umd.min.js"></script>
 
 <!-- Node modules package -->
-<script type="module" src="path-to-your/node_modules/brazil-mentioned/dist/brazil-mentioned.umd.min.js"></script>
+<script type="module" src="path-to-your/node_modules/brazil-map/dist/brazil-map.umd.min.js"></script>
 ```
 
 Then just put the just put the `brazil-component` selector in a `html` page and Voilà! You're done.

@@ -27,7 +27,7 @@ export class BrazilComponent extends LitElement {
         );
       }
 
-      svg#brazil-mentioned {
+      svg#brazil-map {
         width: 100%;
         height: 100%;
       }
@@ -91,7 +91,7 @@ export class BrazilComponent extends LitElement {
   public override render(): TemplateResult {
     return html`
       <svg
-        id="brazil-mentioned"
+        id="brazil-map"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         version="1.1"
