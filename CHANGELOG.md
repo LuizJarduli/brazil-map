@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.7](https://github.com/LuizJarduli/brazil-map/compare/v1.1.6...v1.1.7) (2024-06-17)
+
+
+### Bug Fixes
+
+* vite named build changed ([33e2dc9](https://github.com/LuizJarduli/brazil-map/commit/33e2dc9977bd47339af3d1708e2d838e55bd09a9))
+
 ### [1.1.6](https://github.com/LuizJarduli/brazil-map/compare/v1.1.5...v1.1.6) (2024-06-17)
 
 ### [1.1.5](https://github.com/LuizJarduli/brazil-mentioned/compare/v1.1.3...v1.1.5) (2024-04-07)
