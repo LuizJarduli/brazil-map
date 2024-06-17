@@ -1,6 +1,6 @@
 {
   "name": "brazil-map",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "A simple interactive svg Brazil map web component",
   "main": "./dist/brazil-map.umd.js",
   "module": "./dist/brazil-map.es.js",
