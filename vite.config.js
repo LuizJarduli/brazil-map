@@ -12,7 +12,7 @@ export default defineConfig({
     lib: {
       entry: 'src/index.ts',
       formats: ['es', 'umd'],
-      name: 'brazil-mentioned',
+      name: 'brazil-map',
     },
     rollupOptions: {
       input: {
@@ -21,13 +21,13 @@ export default defineConfig({
       output: [
         {
           format: 'es',
-          entryFileNames: 'brazil-mentioned.[format].js',
-          name: 'brazil-mentioned',
+          entryFileNames: 'brazil-map.[format].js',
+          name: 'brazil-map',
         },
         {
           format: 'es',
-          entryFileNames: 'brazil-mentioned.[format].min.js',
-          name: 'brazil-mentioned',
+          entryFileNames: 'brazil-map.[format].min.js',
+          name: 'brazil-map',
           plugins: [
             // Minify JS
             terser({
@@ -39,13 +39,13 @@ export default defineConfig({
         },
         {
           format: 'umd',
-          entryFileNames: 'brazil-mentioned.[format].js',
-          name: 'brazil-mentioned',
+          entryFileNames: 'brazil-map.[format].js',
+          name: 'brazil-map',
         },
         {
           format: 'umd',
-          entryFileNames: 'brazil-mentioned.[format].min.js',
-          name: 'brazil-mentioned',
+          entryFileNames: 'brazil-map.[format].min.js',
+          name: 'brazil-map',
           plugins: [
             // Minify JS
             terser({
