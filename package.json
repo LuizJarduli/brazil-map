@@ -65,7 +65,7 @@
     "eslint-plugin-promise": "~6.1.1",
     "rollup-plugin-minify-html-literals": "~1.2.6",
     "rollup-plugin-summary": "~2.0.0",
-    "terser": "~5.30.2",
+    "terser": "~5.37.0",
     "ts-lit-plugin": "~2.0.2",
     "typescript": "~5.3.3",
     "vite": "~5.1.4"
