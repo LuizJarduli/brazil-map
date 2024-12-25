@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.8](https://github.com/LuizJarduli/brazil-map/compare/v1.1.7...v1.1.8) (2024-12-25)
+
+
+### Bug Fixes
+
+* index html reference ([d6335dd](https://github.com/LuizJarduli/brazil-map/commit/d6335dda7538f368411c2c53115fea083acc3f0c))
+
 ### [1.1.7](https://github.com/LuizJarduli/brazil-map/compare/v1.1.6...v1.1.7) (2024-06-17)
 
 ### Bug Fixes
